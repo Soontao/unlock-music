@@ -1,14 +1,20 @@
-# Unlock Music 音乐解锁
-- Unlock encrypted music file in browser. 
-- 在浏览器中解锁加密的音乐文件。
-- unlock-music项目是以学习和技术研究的初衷创建的。
-- 由于存在可能的法律风险以及滥用风险，不再提供Demo服务。
+# <img src="https://res.cloudinary.com/digf90pwi/image/upload/v1583027890/unlock_zzu39s.png" width="100px" /> Unlock Music 音乐解锁
 
 [![Build Status](https://ci.ixarea.com/api/badges/ix64/unlock-music/status.svg)](https://ci.ixarea.com/ix64/unlock-music)
 ![Node.js Build](https://github.com/Soontao/unlock-music/workflows/Node.js%20Build/badge.svg)
 [![Netlify Status](https://api.netlify.com/api/v1/badges/e86ac467-6164-4dfd-9eca-0be27e0fbb09/deploy-status)](https://unlock-music.demo.netlify.fornever.org/)
 
-# Features
+- Unlock encrypted music file in browser. 
+- 在浏览器中解锁加密的音乐文件。
+- unlock-music项目是以学习和技术研究的初衷创建的。
+- 由于存在可能的法律风险以及滥用风险，不再提供Demo服务。
+
+## Icon
+
+Icons made by <a href="https://www.flaticon.com/authors/prosymbols" title="Prosymbols">Prosymbols</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
+
+## Features
+
 - [x] Unlock in browser 在浏览器中解锁
 - [x] QQMusic Format QQ音乐格式 (.qmc0/.qmc3/.qmcflac/.qmcogg/.tkm)
 - [x] MooMusic Format Moo音乐格式 ([.bkcmp3/.bkcflac](https://github.com/ix64/unlock-music/issues/11))
@@ -24,11 +30,14 @@
 - [x] Complete ID3 for ncm 补全ncm的ID3信息
 - [x] Multi-threads 多线程 
 
-# 使用方法
-## 下载已构建版本
+## 使用方法
+
+### 下载已构建版本
+
 - 已构建的版本发布在 [GitHub Release](https://github.com/ix64/unlock-music/releases/latest), 下载解压缩后即可部署或本地使用
 
-## 自行构建
+### 自行构建
+
 - 环境要求 
     - nodejs
     - npm
