@@ -118,7 +118,7 @@ export default {
             "<br/>最近更新：提供实验性mgg支持" +
             '<br/><a target="_blank" href="https://github.com/ix64/unlock-music/wiki/使用提示">使用提示</a>',
           dangerouslyUseHTMLString: true,
-          duration: 200,
+          duration: 750,
           position: "top-left"
         });
       }
@@ -133,7 +133,7 @@ export default {
           this.$notify.success({
             title: "解锁成功",
             message: "成功解锁 " + data.title,
-            duration: 200
+            duration: 500
           });
         }
         if (process.env.NODE_ENV === "production") {
