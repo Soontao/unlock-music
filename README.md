@@ -1,4 +1,4 @@
-# <img src="https://res.cloudinary.com/digf90pwi/image/upload/v1583027890/unlock_zzu39s.png" width="100px" /> Unlock Music 音乐解锁
+# <img src="https://res.cloudinary.com/digf90pwi/image/upload/v1583027890/unlock_zzu39s.png" width="25px" /> Unlock Music 音乐解锁
 
 [![Build Status](https://ci.ixarea.com/api/badges/ix64/unlock-music/status.svg)](https://ci.ixarea.com/ix64/unlock-music)
 ![Node.js Build](https://github.com/Soontao/unlock-music/workflows/Node.js%20Build/badge.svg)
