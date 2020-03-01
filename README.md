@@ -5,6 +5,8 @@
 - 由于存在可能的法律风险以及滥用风险，不再提供Demo服务。
 
 [![Build Status](https://ci.ixarea.com/api/badges/ix64/unlock-music/status.svg)](https://ci.ixarea.com/ix64/unlock-music)
+![Node.js Build](https://github.com/Soontao/unlock-music/workflows/Node.js%20Build/badge.svg)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/e86ac467-6164-4dfd-9eca-0be27e0fbb09/deploy-status)](https://unlock-music.demo.netlify.fornever.org/)
 
 # Features
 - [x] Unlock in browser 在浏览器中解锁
