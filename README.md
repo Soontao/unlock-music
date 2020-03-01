@@ -1,6 +1,5 @@
 # <img src="https://res.cloudinary.com/digf90pwi/image/upload/v1583027890/unlock_zzu39s.png" width="25px" /> Unlock Music 音乐解锁
 
-[![Build Status](https://ci.ixarea.com/api/badges/ix64/unlock-music/status.svg)](https://ci.ixarea.com/ix64/unlock-music)
 ![Node.js Build](https://github.com/Soontao/unlock-music/workflows/Node.js%20Build/badge.svg)
 [![Netlify Status](https://api.netlify.com/api/v1/badges/e86ac467-6164-4dfd-9eca-0be27e0fbb09/deploy-status)](https://unlock-music.demo.netlify.fornever.org/)
 
