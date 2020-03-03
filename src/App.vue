@@ -133,7 +133,7 @@ export default {
           this.$notify.success({
             title: "解锁成功",
             message: "成功解锁 " + data.title,
-            duration: 500
+            duration: 1000
           });
         }
         if (process.env.NODE_ENV === "production") {
