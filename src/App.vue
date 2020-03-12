@@ -1,7 +1,7 @@
 <template>
   <el-container id="app">
     <el-main>
-      <x-upload v-on:handle_finish="showSuccess" v-on:handle_error="showFail"></x-upload>
+      <x-upload v-on:handle_error="showFail" v-on:handle_finish="showSuccess"></x-upload>
 
       <el-row id="app-control">
         <el-row style="padding-bottom: 1em; font-size: 14px">
@@ -20,8 +20,8 @@
       <audio :autoplay="playing_auto" :src="playing_url" controls />
 
       <x-preview
-        :table-data="tableData"
         :download_format="download_format"
+        :table-data="tableData"
         v-on:music_changed="changePlaying"
       ></x-preview>
     </el-main>
@@ -95,7 +95,7 @@ export default {
         );
         updateInfo = await resp.json();
       } catch (e) {}
-      if (!!updateInfo.Found) {
+      if (!!updateInfo && !!updateInfo.Found) {
         this.$notify.warning({
           title: "发现更新",
           message:
@@ -115,10 +115,11 @@ export default {
           title: "离线使用",
           message:
             "我们使用PWA技术，无网络也能使用" +
-            "<br/>最近更新：提供实验性mgg支持" +
+            "<br/>最近更新：" +
+            config.updateInfo +
             '<br/><a target="_blank" href="https://github.com/ix64/unlock-music/wiki/使用提示">使用提示</a>',
           dangerouslyUseHTMLString: true,
-          duration: 750,
+          duration: 10000,
           position: "top-left"
         });
       }
@@ -133,7 +134,7 @@ export default {
           this.$notify.success({
             title: "解锁成功",
             message: "成功解锁 " + data.title,
-            duration: 1000
+            duration: 3000
           });
         }
         if (process.env.NODE_ENV === "production") {
@@ -162,8 +163,8 @@ export default {
       });
       if (process.env.NODE_ENV === "production") {
         window._paq.push(["trackEvent", "Error", errInfo, filename]);
-        console.error(errInfo, filename);
       }
+      console.error(errInfo, filename);
     },
     changePlaying(url) {
       this.playing_url = url;
