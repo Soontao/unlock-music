@@ -20,20 +20,21 @@ Icons made by <a href="https://www.flaticon.com/authors/prosymbols" title="Prosy
 - [x] QQMusic Tm Format QQ音乐Tm格式 (.tm0/.tm2/.tm3/.tm6)
 - [x] QQMusic New Format QQ音乐新格式 (Experimental 实验性支持)
     - [x] .mflac 
-    - [x] .mgg
-- [x] Netease Format 网易云音乐格式 (.ncm)
-- [x] Drag and Drop 拖放文件
-- [x] Play instantly 在线播放
-- [x] Batch unlocking 批量解锁
-- [x] Progressive Web App 渐进式Web应用
-- [x] Complete ID3 for ncm 补全ncm的ID3信息
-- [x] Multi-threads 多线程 
+    - [x] [.mgg](https://github.com/ix64/unlock-music/issues/3)
+- [x] 网易云音乐格式 (.ncm)
+    - [x] 补全ncm的ID3/FlacMeta信息
+- [x] 虾米音乐格式 (.xm) (测试阶段)
+- [x] 酷我音乐格式 (.kwm) (测试阶段)
+- [x] 酷狗音乐格式 (.kgm) ([CLI版本](https://github.com/ix64/unlock-music/wiki/%E5%85%B6%E4%BB%96%E9%9F%B3%E4%B9%90%E6%A0%BC%E5%BC%8F%E5%B7%A5%E5%85%B7#%E9%85%B7%E7%8B%97%E9%9F%B3%E4%B9%90-kgmvpr%E8%A7%A3%E9%94%81%E5%B7%A5%E5%85%B7))
 
-## 使用方法
+## 其他特性
+- [x] 在浏览器中解锁
+- [x] 拖放文件
+- [x] 在线播放
+- [x] 批量解锁
+- [x] 渐进式Web应用
+- [x] 多线程 
 
-### 下载已构建版本
-
-- 已构建的版本发布在 [GitHub Release](https://github.com/ix64/unlock-music/releases/latest), 下载解压缩后即可部署或本地使用
 
 ### 自行构建
 
