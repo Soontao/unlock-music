@@ -22,19 +22,30 @@ Icons made by <a href="https://www.flaticon.com/authors/prosymbols" title="Prosy
     - [x] .mflac 
     - [x] [.mgg](https://github.com/ix64/unlock-music/issues/3)
 - [x] 网易云音乐格式 (.ncm)
-    - [x] 补全ncm的ID3/FlacMeta信息
+  - [x] 补全ncm的ID3/FlacMeta信息
 - [x] 虾米音乐格式 (.xm) (测试阶段)
 - [x] 酷我音乐格式 (.kwm) (测试阶段)
-- [x] 酷狗音乐格式 (.kgm) ([CLI版本](https://github.com/ix64/unlock-music/wiki/%E5%85%B6%E4%BB%96%E9%9F%B3%E4%B9%90%E6%A0%BC%E5%BC%8F%E5%B7%A5%E5%85%B7#%E9%85%B7%E7%8B%97%E9%9F%B3%E4%B9%90-kgmvpr%E8%A7%A3%E9%94%81%E5%B7%A5%E5%85%B7))
+- [x] 酷狗音乐格式 (
+  .kgm) ([CLI版本](https://github.com/ix64/unlock-music/wiki/%E5%85%B6%E4%BB%96%E9%9F%B3%E4%B9%90%E6%A0%BC%E5%BC%8F%E5%B7%A5%E5%85%B7#%E9%85%B7%E7%8B%97%E9%9F%B3%E4%B9%90-kgmvpr%E8%A7%A3%E9%94%81%E5%B7%A5%E5%85%B7))
 
-## 其他特性
+### 其他特性
+
 - [x] 在浏览器中解锁
 - [x] 拖放文件
 - [x] 在线播放
 - [x] 批量解锁
 - [x] 渐进式Web应用
-- [x] 多线程 
+- [x] 多线程
 
+## 使用方法
+
+### 安装浏览器扩展
+
+[![Chrome Web Store](https://storage.googleapis.com/chrome-gcs-uploader.appspot.com/image/WlD8wC6g8khYWPJUsQceQkhXSlv1/UV4C4ybeBTsZt43U4xis.png)](https://chrome.google.com/webstore/detail/gldlhhhmienbhlpkfanjpmffdjblmegd)
+[<img src="https://developer.microsoft.com/en-us/store/badges/images/Chinese_Simplified_get-it-from-MS.png" height="60" alt="Microsoft Edge Addons"/>](https://microsoftedge.microsoft.com/addons/detail/ggafoipegcmodfhakdkalpdpcdkiljmd)
+[![Firefox Browser Addons](https://ffp4g1ylyit3jdyti1hqcvtb-wpengine.netdna-ssl.com/addons/files/2015/11/get-the-addon.png)](https://addons.mozilla.org/zh-CN/firefox/addon/unlock-music/)
+
+### 使用已构建版本
 
 ### 自行构建
 
@@ -43,4 +54,6 @@ Icons made by <a href="https://www.flaticon.com/authors/prosymbols" title="Prosy
     - npm
 1. 获取项目源代码后执行 `npm install` 安装相关依赖
 2. 执行 `npm run build` 即可进行构建，构建输出为 dist 目录
+
 - `npm run serve` 可用于开发
+3. 如需构建浏览器扩展，build完成后还需要执行`npm run make-extension`
